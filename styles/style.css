@@ -67,13 +67,14 @@
 
 @media screen and (max-width:576px) {
     .header-section{
+        position: relative;
         margin: 0%;
         padding: 0%;
     }
     .header-nav{
         flex-direction: column;
         gap: 20px;
-        width: auto;
+        width: 100%;
     }
     .header-div{
         margin: 0%;
