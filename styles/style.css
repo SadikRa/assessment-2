@@ -49,12 +49,6 @@
     padding-top: 20px;
 }
 
-.header-div-banner{
-    align-items: center;
-    margin: 50px 240px;
-    padding-bottom: 50px;
-}
-
 .primary-btn{
     background-color: var(--orange);
     font-size: 20px;
@@ -63,6 +57,12 @@
     color: var(--white);
     padding: 20px 25px;
     margin-left: 894px;
+}
+
+.header-div-banner{
+    align-items: center;
+    margin: 50px 240px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width:576px) {
