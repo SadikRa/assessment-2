@@ -210,8 +210,8 @@
 }
 
 .section-five-info > p{
-    padding: 20px 160px 50px 160px  ;
-  
+    padding: 20px 160px 50px 160px;
+    margin: auto 210px;
 }
 
 .section-five-img{
@@ -387,6 +387,8 @@
         padding: 0%;
     }
 
+    /* section five styles  */
+
     .section-five-img{
         flex-direction: column;
         row-gap: 20px;
@@ -401,6 +403,7 @@
     .section-five-info > p{
         padding: 0%;
         width: 100%;
+        margin: 0%;
     }
 
 
