@@ -240,6 +240,10 @@
     padding-bottom: 20px;
 }
 
+.six-section-div > h3{
+    padding-top: 20px;
+}
+
 /* footer section styles  */
 
 .footer-section{
@@ -253,7 +257,13 @@
 }
 
 /* media quary styles */
-@media screen and (max-width:576px) {
+@media only screen and (max-width:576px) {
+
+    .body{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
     .header-section{
         margin: 0%;
         padding: 0%;
@@ -269,7 +279,6 @@
     }
     .header-div-title{
         width: 100%;
-        font-size: ;
 
     }
     .heaer-div-description{
