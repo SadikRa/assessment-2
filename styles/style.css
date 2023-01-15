@@ -2,6 +2,8 @@
     --orange: #FF900E;
     --white: #ffffff;
     --primary-font: 'Work Sans', sans-serif;
+    --balck: #727272;
+    --antiquewhite:antiquewhite;
 }
 
 *{
@@ -65,6 +67,103 @@
     padding-bottom: 50px;
 }
 
+/* second section styles  */
+
+.second-section-div{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 70px;
+    align-items: center;
+    gap: 50px;
+}
+
+.second-section-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.second-section-header{
+    width: 500px;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.color-1{
+    color: var(--balck);
+}
+
+.color-2{
+    color: var(--orange);
+}
+
+.secound-btn{
+    margin: 0%;
+    margin-top: 20px;
+}
+
+/* third section styles  */
+
+.third-section-div{
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+    gap: 145px;
+    padding-top: 150px;
+}
+
+.third-section-header{
+    padding-bottom: 30px;
+}
+
+.thied-section-header-1{
+    display: flex;
+    gap: 20px;
+}
+
+.thied-section-header-2{
+    background-color: var(--orange);
+    width: 5px;
+    height: 106px;
+}
+
+.thied-section-header-3{
+    width: 450px;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+
+.button-two{
+    position: absolute;
+    background-color: var(--orange);
+    padding: 25px 20px;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    margin-left: 850px;
+    margin-top: -90px;
+}
+
+.button-two-span{
+    width: 250px;
+    font-size: 64px;
+}
+
+.third-section-div-info{
+    background-color: var(--white);
+    border: var(--white);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 10px 5px 5px var(--antiquewhite);
+}
+
+.third-section-div-info > h2{
+    padding-bottom: 10px;
+}
+
+/* media quary styles */
 @media screen and (max-width:576px) {
     .header-section{
         margin: 0%;
@@ -91,7 +190,7 @@
     .primary-btn{
         width: auto;
         margin: 0%;
-        margin-left: 130px;
+        margin-left: 80px;
     }
 
     .header-div-banner{
@@ -105,4 +204,29 @@
         padding-bottom: 20px;
     }
 
+    /* second section styles  */
+
+
+    .second-section-div{
+        flex-direction: column;
+        margin: 0%;
+        width: 100%;
+    }
+
+    .second-section-img{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0%;
+        width: 100%;
+    }
+    
+    .secound-section-description{
+        margin: 0%;
+        padding: 0%;
+        padding-bottom: 150px;
+        width: 100%;
+    }
+
+    .secound-btn{
+        margin-top: 20px;
+    }
 }
